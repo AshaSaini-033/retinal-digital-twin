@@ -1,0 +1,25 @@
+
+# Dataset and large medical imaging files
+data/
+*.7z
+*.tif
+*.tiff
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary outputs
+*.tmp
+*.log
+
+# Local generated results
+retinal_3d_surface.html
+processed_oct_summary.csv
+project_checkpoint.json
